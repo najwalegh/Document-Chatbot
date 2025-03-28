@@ -12,7 +12,7 @@ This project is built using NestJS, MongoDB, Pinecone, LangChain, and GPT-3.5 Tu
 3. Documents are uploaded to the backend and vectorized, enabling the chatbot to reference their content in responses.
 
 
-### Technical ... ??
+### Technical Requirements
 - **NestJs** for the backend service.
 - **NextJs** for the frontend.
 - **GraphQL** API communication.
