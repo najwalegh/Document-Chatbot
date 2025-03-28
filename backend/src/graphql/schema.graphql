@@ -1,0 +1,13 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type ChatMessageType {
+  question: String!
+  response: String!
+}
+
+type Query {
+  askQuestion(question: String!): String!
+  getMessages: [ChatMessageType!]!
+}
